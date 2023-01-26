@@ -1,0 +1,45 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "author": "Mark Santiago",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "mocha 'server/**/*.test.js'",
+    "lintfix": "eslint ./ --fix --cache"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.48.2",
+    "chai": "^4.3.7",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard-with-typescript": "^31.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.1",
+    "faker": "^4.1.0",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.3",
+    "sinon": "^15.0.1",
+    "typescript": "*"
+  }
+}
